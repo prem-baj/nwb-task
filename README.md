@@ -15,7 +15,10 @@ These instructions will get you a copy of the project up and running on your loc
 To set up the development environment, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Ensure you have Python 3.x installed.
+2. navigate into the cloned project directory:
+```bash
+cd ./nwb-task
+```
 3. Create a Python virtual environment:
 ```bash
 python3 -m venv venv
@@ -29,11 +32,11 @@ python3 -m venv venv
     ```bash
     venv\Scripts\activate
     ```
-3. Install the required dependencies using `pip`:
+5. Install the required dependencies using `pip`:
 ```bash
 pip install -r requirements.txt
 ```
-4. Start the Flask server:
+6. Start the Flask server:
 ```bash
 python3 app.py
 ```
