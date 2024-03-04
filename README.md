@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 4. Start the Flask server:
 ```bash
-python app.py
+python3 app.py
 ```
 
 ## Environment Setup
@@ -139,12 +139,5 @@ curl http://localhost:5000/countries/compare?country1=GB&country2=PL&criteria=po
 ## Authors
 
 - Przemyslaw Baj
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 
 
