@@ -23,11 +23,11 @@ python3 -m venv venv
 4. Activate the virtual environment:
     - On macOS and Linux:
     ```bash
-    pip install -r requirements.txt
+    source venv/bin/activate
     ```
     - On Windows (Command Prompt):
     ```bash
-    pip install -r requirements.txt
+    venv\Scripts\activate
     ```
 3. Install the required dependencies using `pip`:
 ```bash
