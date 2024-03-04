@@ -16,6 +16,19 @@ To set up the development environment, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Ensure you have Python 3.x installed.
+3. Create a Python virtual environment:
+```bash
+python3 -m venv venv
+```
+4. Activate the virtual environment:
+    - On macOS and Linux:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    - On Windows (Command Prompt):
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. Install the required dependencies using `pip`:
 ```bash
 pip install -r requirements.txt
